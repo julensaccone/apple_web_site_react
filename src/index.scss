@@ -2,6 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  //DEBUGGING
+  // outline: 1px solid red;
+  // opacity: 1 !important;
+  // visibility: visible !important;
 }
 body {
   margin: 0;
