@@ -390,18 +390,21 @@ const Footer = () => {
           <a className='blue-link footer-link'>other retailer</a> near you. Or
           call 1-800-MY-APPLE.
         </div>
-        {/* <div className='united-states-footer'>United States</div> */}
-        <div className='copyright'>
-          <span>Copyright © 2022 Apple Inc. All rights reserved.</span>
-          <div className='links'>
-            <span className='span-footer'>Privacy Policy</span>
-            <span className='span-footer'>Terms of Use</span>
-            <span className='span-footer'>Sales and Refunds</span>
-            <span className='span-footer'>Legal</span>
-            <span className='span-footer'>Site Map</span>
+        <div className="sub-footer">
+          <div className='country-footer'>United States</div>
+          <div className='copyright'>
+            <span>Copyright © 2022 Apple Inc. All rights reserved.</span>
           </div>
-          <span>United States</span>
-        </div>
+            <div className='links'>
+              <span className='span-footer'>Privacy Policy</span>
+              <span className='span-footer'>Terms of Use</span>
+              <span className='span-footer'>Sales and Refunds</span>
+              <span className='span-footer'>Legal</span>
+              <span className='span-footer'>Site Map</span>
+            </div>
+            {/*<div>United States</div>*/}
+          </div>
+        
       </div>
     </footer>
   );

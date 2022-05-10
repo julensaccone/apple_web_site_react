@@ -21,7 +21,9 @@ const NavbarItem = ({ imagePath, linkUrl, name }) => {
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
   const [isBagActive, setBagActive] = useState(false);
-  const [isSearchActive, setIsSearchActive] = useState(false)
+  const [isSearchActive, setIsSearchActive] = useState(false);
+  const [isSearchMobileActive, setIsSearchMobileActive] = useState(false);
+
   const ToggleClass = () => {
     setActive(!isActive);
   };
@@ -33,6 +35,10 @@ const Navbar = () => {
   const toggleSearch = () =>{
     setIsSearchActive(!isSearchActive);
     setBagActive(false);
+  }
+
+  const toggleSearchMobile = () =>{
+    setIsSearchMobileActive(!isSearchMobileActive);
   }
 
 
@@ -136,12 +142,12 @@ const BagBox = ({isBagActive}) => {
     </div></div>
   );
 };
-const Menu = ({ isActive }) => {
+
+const Menu = ({ isActive, isSearchMobileActive, toggleSearchMobile }) => {
   return (
     <div className={isActive ? "drop-down-menu-active" : "drop-down-menu"}>
       <div className='search-bar-container'>
-      
-      <div className='search-bar' placeholder="Search Apple.com"><img src={searchLens} /> <p>Search Apple.com</p></div>
+        <div className='search-bar' onClick={toggleSearchMobile}><img src={searchLens} /> <p>Search Apple.com</p></div>
       </div>
       <ul>
         {navbarItems

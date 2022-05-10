@@ -7,10 +7,12 @@ const Banner = () => {
   return (
     <div className='banner'>
       <img src={unicefLogo} alt='unicefLogo' />
-      <p>Donate to support families affected by the war in Ukraine</p>
-      <IconContext.Provider value={{ color: "#06c" }}>
-        <FiArrowUpRight />
-      </IconContext.Provider>
+      <div>
+        <p>Donate to support families affected by the war in Ukraine</p>
+        <IconContext.Provider value={{ color: "#06c" }}>
+          <FiArrowUpRight />
+        </IconContext.Provider>
+      </div>
     </div>
   );
 };

@@ -27,7 +27,7 @@ const GridInsertion = ({
       }}
     >
       <h6>
-        {pre && (
+        {pre || preImage && (
           <img
             src={preImage}
             alt='preImage'
