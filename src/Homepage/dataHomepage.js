@@ -119,12 +119,12 @@ export const navbarItems = [
     linkUrl: "",
     name: "Support",
   },
- // {
- //   id: 13,
- //   imagePath: searchLens,
- //   linkUrl: "",
- //   name: "searchLens",
- // },
+  // {
+  //   id: 13,
+  //   imagePath: searchLens,
+  //   linkUrl: "",
+  //   name: "searchLens",
+  // },
   // {
   //   id: 14,
   //   imagePath: bag,

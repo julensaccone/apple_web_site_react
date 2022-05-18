@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+let self = "#";
+
 const MenuItem = ({ title, children }) => {
   const [displaySubMenu, setDisplaySubMenu] = useState(false);
 
@@ -156,159 +158,159 @@ const Footer = () => {
           <ul>
             <MenuItem title='Shop and Learn'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Store</li>
                 </a>
 
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Mac</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>iPad</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>iPhone</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Watch</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>AirPods</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>TV & Home</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>iPod touch</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>AirTag</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Accessories</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Gift Cards</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='Services'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Music</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple TV+</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Fitness+</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple News+</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Arcade</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>iCloud</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple One</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Card</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Books</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Podcasts</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>App Store</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='Account'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Manage Your Apple ID</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Store Account</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>iCloud.com</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='Apple Store'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Find a Store</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Genius Bar</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Today at Apple</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Camp</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Store App</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>
                     SRefurbished and Clearance
                   </li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Financing</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Trade In</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Order Status</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Shopping Help</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='For Business'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple and Business</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Shop for Business</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='For Education'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple and Education</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Shop for K-12</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Shop for College</li>
                 </a>
               </ul>
             </MenuItem>
             <MenuItem title='For Healthcare'>
-              <a href='/'>
+              <a href={self}>
                 <li className='sub-menu-item-footer'>Apple in Healthcare</li>
               </a>
-              <a href='/'>
+              <a href={self}>
                 <li className='sub-menu-item-footer'>Health on Apple Watch</li>
               </a>
-              <a href='/'>
+              <a href={self}>
                 <li className='sub-menu-item-footer'>
                   Health Records on iPhone
                 </li>
@@ -316,10 +318,10 @@ const Footer = () => {
             </MenuItem>
             <MenuItem title='For Government'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Shop for Government</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>
                     Shop for Veterans and Military
                   </li>
@@ -328,29 +330,29 @@ const Footer = () => {
             </MenuItem>
             <MenuItem title='Apple Values'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Accessibility</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Education</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Environment</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>
                     Inclusion and Diversity
                   </li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Privacy</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>
                     Racial Equity and Justice
                   </li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>
                     Supplier Responsibility
                   </li>
@@ -359,25 +361,25 @@ const Footer = () => {
             </MenuItem>
             <MenuItem title='About Apple'>
               <ul className='sub-menu-footer'>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Newsroom</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Apple Leadership</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Career Opportunities</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Investors</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Ethics & Compliance</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Events</li>
                 </a>
-                <a href='/'>
+                <a href={self}>
                   <li className='sub-menu-item-footer'>Contact Apple</li>
                 </a>
               </ul>
@@ -386,25 +388,29 @@ const Footer = () => {
         </div>
         <div className='more'>
           More ways to shop:{" "}
-          <a className='blue-link footer-link'>Find an Apple Store</a> or{" "}
-          <a className='blue-link footer-link'>other retailer</a> near you. Or
-          call 1-800-MY-APPLE.
+          <a href={self} className='blue-link footer-link'>
+            Find an Apple Store
+          </a>{" "}
+          or{" "}
+          <a href={self} className='blue-link footer-link'>
+            other retailer
+          </a>{" "}
+          near you. Or call 1-800-MY-APPLE.
         </div>
-        <div className="sub-footer">
+        <div className='sub-footer'>
           <div className='country-footer'>United States</div>
           <div className='copyright'>
             <span>Copyright © 2022 Apple Inc. All rights reserved.</span>
           </div>
-            <div className='links'>
-              <span className='span-footer'>Privacy Policy</span>
-              <span className='span-footer'>Terms of Use</span>
-              <span className='span-footer'>Sales and Refunds</span>
-              <span className='span-footer'>Legal</span>
-              <span className='span-footer'>Site Map</span>
-            </div>
-            {/*<div>United States</div>*/}
+          <div className='links'>
+            <span className='span-footer'>Privacy Policy</span>
+            <span className='span-footer'>Terms of Use</span>
+            <span className='span-footer'>Sales and Refunds</span>
+            <span className='span-footer'>Legal</span>
+            <span className='span-footer'>Site Map</span>
           </div>
-        
+          {/*<div>United States</div>*/}
+        </div>
       </div>
     </footer>
   );

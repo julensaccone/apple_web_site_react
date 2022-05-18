@@ -27,13 +27,14 @@ const GridInsertion = ({
       }}
     >
       <h6>
-        {pre || preImage && (
-          <img
-            src={preImage}
-            alt='preImage'
-            style={{ width: "15%", paddingBottom: "10px" }}
-          />
-        )}
+        {pre ||
+          (preImage && (
+            <img
+              src={preImage}
+              alt='preImage'
+              style={{ width: "15%", paddingBottom: "10px" }}
+            />
+          ))}
       </h6>
       <h1>
         {title || (
